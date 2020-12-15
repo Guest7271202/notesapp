@@ -1,4 +1,4 @@
-package com.dicoding.andikas.mynotesapp.db
+package com.dicoding.andikas.consumerapp.db
 
 import android.net.Uri
 import android.provider.BaseColumns

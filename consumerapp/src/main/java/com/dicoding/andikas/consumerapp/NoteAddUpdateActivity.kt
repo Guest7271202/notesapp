@@ -1,7 +1,6 @@
-package com.dicoding.andikas.mynotesapp
+package com.dicoding.andikas.consumerapp
 
 import android.content.ContentValues
-import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -10,16 +9,13 @@ import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
-import com.dicoding.andikas.mynotesapp.databinding.ActivityNoteAddUpdateBinding
-import com.dicoding.andikas.mynotesapp.db.DatabaseContract
-import com.dicoding.andikas.mynotesapp.db.DatabaseContract.NoteColumns.Companion.CONTENT_URI
-import com.dicoding.andikas.mynotesapp.db.DatabaseContract.NoteColumns.Companion.DATE
-import com.dicoding.andikas.mynotesapp.db.DatabaseContract.NoteColumns.Companion.DESCRIPTION
-import com.dicoding.andikas.mynotesapp.db.DatabaseContract.NoteColumns.Companion.TITLE
-import com.dicoding.andikas.mynotesapp.db.NoteHelper
-import com.dicoding.andikas.mynotesapp.entity.Note
-import com.dicoding.andikas.mynotesapp.helper.MappingHelper
-import kotlinx.android.synthetic.main.activity_note_add_update.*
+import com.dicoding.andikas.consumerapp.databinding.ActivityNoteAddUpdateBinding
+import com.dicoding.andikas.consumerapp.db.DatabaseContract.NoteColumns.Companion.CONTENT_URI
+import com.dicoding.andikas.consumerapp.db.DatabaseContract.NoteColumns.Companion.DATE
+import com.dicoding.andikas.consumerapp.db.DatabaseContract.NoteColumns.Companion.DESCRIPTION
+import com.dicoding.andikas.consumerapp.db.DatabaseContract.NoteColumns.Companion.TITLE
+import com.dicoding.andikas.consumerapp.entity.Note
+import com.dicoding.andikas.consumerapp.helper.MappingHelper
 import java.text.SimpleDateFormat
 import java.util.*
 

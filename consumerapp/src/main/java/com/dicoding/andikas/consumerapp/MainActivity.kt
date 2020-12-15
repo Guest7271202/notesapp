@@ -1,4 +1,4 @@
-package com.dicoding.andikas.mynotesapp
+package com.dicoding.andikas.consumerapp
 
 import android.content.Intent
 import android.database.ContentObserver
@@ -8,12 +8,11 @@ import android.os.Handler
 import android.os.HandlerThread
 import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.dicoding.andikas.mynotesapp.adapter.NoteAdapter
-import com.dicoding.andikas.mynotesapp.databinding.ActivityMainBinding
-import com.dicoding.andikas.mynotesapp.db.DatabaseContract.NoteColumns.Companion.CONTENT_URI
-import com.dicoding.andikas.mynotesapp.db.NoteHelper
-import com.dicoding.andikas.mynotesapp.entity.Note
-import com.dicoding.andikas.mynotesapp.helper.MappingHelper
+import com.dicoding.andikas.consumerapp.adapter.NoteAdapter
+import com.dicoding.andikas.consumerapp.databinding.ActivityMainBinding
+import com.dicoding.andikas.consumerapp.db.DatabaseContract.NoteColumns.Companion.CONTENT_URI
+import com.dicoding.andikas.consumerapp.entity.Note
+import com.dicoding.andikas.consumerapp.helper.MappingHelper
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.Dispatchers
